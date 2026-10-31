@@ -1,3 +1,12 @@
 <Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <ProjectType Extension=".csproj" BasedOn=".csproj">
+      <Platform Project="x64" />
+    </ProjectType>
+  </Configurations>
   <Project Path="ConsoleApp1/ConsoleApp1.csproj" Id="12a935a3-422d-4519-aa4d-89f97f36a134" />
+  <Project Path="AlgorithmLab.Core/AlgorithmLab.Core.csproj" Id="ce8a9920-5598-4ac1-9abd-32460e9f87a0" />
+  <Project Path="AlgorithmLab.Data/AlgorithmLab.Data.csproj" Id="d99561f7-82d4-477e-a352-ae88e74447e0" />
+  <Project Path="AlgorithmLab.Tests/AlgorithmLab.Tests.csproj" Id="a694f672-89f0-4ba7-9f45-632d714f918b" />
 </Solution>

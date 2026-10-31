@@ -1,0 +1,16 @@
+.vs/
+**/[Bb]in/
+**/[Oo]bj/
+*.user
+*.suo
+packages/
+TestResults/
+artifacts/
+**/logs/
+**/store.json
+**/store.json.bak
+**/store.tmp*
+**/store.json.*.tmp
+**/store.json.corrupt.*
+**/algorithm-lab.db*
+!AlgorithmLab.Tests/Fixtures/**
