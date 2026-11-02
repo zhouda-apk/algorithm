@@ -14,3 +14,4 @@ artifacts/
 **/store.json.corrupt.*
 **/algorithm-lab.db*
 !AlgorithmLab.Tests/Fixtures/**
+report/

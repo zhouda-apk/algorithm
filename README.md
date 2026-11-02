@@ -108,15 +108,3 @@ Store 生命週期持有單實例 Mutex；建立與 Dispose 必須在同一個�
 | AlgorithmLab.Tests | 行為驗證入口 | Core、Data |
 
 期中不用 SQLite 或任何 NuGet 套件。四專案採傳統 csproj，新增 C# 檔案必須納入 Compile；專案參考與方案變更由角色 A 整合。兩份方案必須同步更新。
-
-## 協作入口
-
-- [開發計畫書](開發計畫書.md)：完整範圍與驗收規則。
-- [共用契約](docs/contracts.md)：Phase 0 凍結的名稱、資料型別與操作語意。
-- [分工與交接](docs/division-of-work.md)：A～D 責任及文件所有權。
-- [需求追蹤](docs/requirements-traceability.md)：需求對應階段與驗收。
-- [架構圖](docs/class-diagram.md)：現有專案與後續型別關係。
-- [驗證紀錄](docs/test-results.md)：實際驗證證據與尚未執行項目。
-- [環境檢查報告](環境檢查報告.md)：Windows 工具及 PATHEXT 注意事項。
-
-四人以同一 repository 及本機副本協作；尚未設定遠端位址時，不假設已有 GitHub 專案，也不由程式自動推送。每次交接附建置結果、異動範圍及剩餘工作。`.vs`、bin、obj 與個人資料不提交，測試範例集中在 Tests/Fixtures。
